@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	/* background-color: red; */
+}
+#main{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right bottom , rgb(221, 24, 24), rgb(8, 8, 217), rgb(218, 58, 218), rgb(165, 165, 51), rgb(183, 7, 36));
+}
+#center{
+	width: 100%;
+	height: 100%;
+
+
+}
+#image{
+	width: 32%;
+	border-radius: 10px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	/* background-color: red; */
+	top:50%;
+	transform: translate(-50% , -50%);
+	
+	overflow: hidden;
+	/* background-color: red; */
+}
+#image>img{
+	width: 100%;
+	height: 100%;
+	z-index: 333;
+}
+#cc{
+	
+	width: 90%;
+left: 6%;
+	height: 94%;
+	border-radius: 55px;
+	/* margin-right: -100px; */
+	position: absolute;
+	top: 3.5%;
+	z-index: -300;
+	background-color: rgba(249, 246, 246, 0.987);
+}
+#maind{
+	width: 100%;
+	height: 100%;
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+#cc1{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	/* margin-left: 40px; */
+	/* margin-top: 40px; */
+	align-items: center;
+	flex-direction: column;
+
+}
+#cc1>img{
+	margin-top: -12px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50px;
+	background: linear-gradient(rgb(255,174,0),red,purple,blue);
+padding: 4px;
+}
+#cc1>h1{
+	font-size: 10px;
+	max-width: 10px;
+	margin-left: -30px;
+	font-family: monospace;
+}
+#pat{
+	display: flex;
+	/* align-items: center; */
+	gap: 30px;
+}
+#pat h1{
+	font-size: 16px;
+}

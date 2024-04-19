@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#main{
+	width: 100%;
+	height: 100%;
+	background-color: wheat;
+
+}
+h1{
+	font-size: 67px;
+}
+#main>:nth-child(1){
+	color: blue;
+}
+#main>:nth-child(3){
+	color: red;
+}
+#main>:nth-child(5){
+	color: rgb(97, 97, 134);
+}

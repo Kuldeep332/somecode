@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#main{
+	position: relative;
+	overflow: hidden;
+}
+#page1{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	/* background-color: red; */
+}
+#car video{
+	height: 100%;
+	width: 100%;
+	/* position: absolute; */
+	/* background-position: center; */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	object-fit: cover;
+}
+#nav{
+	display: flex;
+	height: 7vh;
+	padding: 10px 30px;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	/* background-color: yellow; */
+	position: absolute;
+}
+#nav img{
+	width: 10%;
+background-color: #033DA4;
+	height: 100%;
+	margin-top: 3vw;
+	background-position: center;
+}
+#tt button{
+	margin-top: 3vw;
+	padding: 12px 24px;
+	border: none;
+	font-size: 17px;
+	border-radius: 50px;
+	color: white;
+	border: 2px solid white;
+	background-color: #033DA4;
+	background-color: transparent;
+	
+
+}
+#bottompage{
+	position: absolute;
+	bottom: 5%;
+	left: 15%;
+	height: 40vh;
+	width: 50vw;
+	/* background-color: red; */
+	color: white;
+	font-family: Great Vibes;
+}
+#bottompage>h1{
+	font-size: 5vw;
+	line-height: 1;
+}
+#ma{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-tracks: center;
+
+
+}
+#najd{
+	padding: 20px;
+	background-color: red;
+}
